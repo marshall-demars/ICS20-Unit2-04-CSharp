@@ -7,7 +7,7 @@ using System;
 
 class Program
 {
-  public static void Main(int[] args)
+  public static void Main(string[] args)
     {
         // This function accepts user input
         int baseTriangle;
