@@ -7,10 +7,10 @@ using System;
 
 class Program
 {
-  public static void Main(string[] args)
+  public static void Main(int[] args)
     {
         // This function accepts user input
-        string baseTriangle;
+        int baseTriangle;
         int heightTriangle;
 
         Console.WriteLine("This program finds the area of a triangle");
