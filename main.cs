@@ -7,7 +7,7 @@ using System;
 
 class Program
 {
-  public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         // This function accepts user input
         int baseTriangle;
@@ -17,12 +17,12 @@ class Program
         Console.WriteLine("");
 
         Console.Write("Enter the height: ");
-        heightTriangle = Console.ReadLine();
+        heightTriangle = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the base: ");
-        heightBase = Convert.ToInt32(Console.ReadLine());
+        baseTriangle = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("The area is: " + (heightTriangle * baseTriangle) / 2 + " " + ".");
+        Console.WriteLine("The area is, " + heightTriangle * baseTriangle / 2 + " .");
 
         Console.WriteLine("\nDone.");
     }
