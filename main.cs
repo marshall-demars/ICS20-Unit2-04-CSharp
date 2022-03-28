@@ -12,6 +12,7 @@ class Program
         // This function accepts user input
         int baseTriangle;
         int heightTriangle;
+        double area;
 
         Console.WriteLine("This program finds the area of a triangle");
         Console.WriteLine("");
@@ -22,7 +23,8 @@ class Program
         baseTriangle = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("The area is, " + heightTriangle * baseTriangle / 2 + "cm².");
+        area = ((double)heightTriangle * baseTriangle) / 2;
+        Console.WriteLine("The area is, " + area + "cm².");
 
         Console.WriteLine("\nDone.");
     }
